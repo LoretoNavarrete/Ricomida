@@ -1,0 +1,155 @@
+body{
+    font-family: 'Cabin', cursive;
+}
+
+.fondo-gris {
+    background-color: #373A3C;
+  }
+
+.logo-text{
+font-size: 37pt;
+font-family: 'Lobster', cursive;
+color: white;
+text-decoration: none;
+}
+
+/*navbar*/
+
+.nav-item{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/*Seccion imagen principal*/
+.responsive {
+    width: 50%;
+    height: auto;
+  }
+
+#imagen-principal h1{
+    color: #373A3C;
+    padding-right: 30%;
+    padding-top: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  #imagen-principal p{
+    color: #373A3C;
+    padding-right: 30%;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  #imagen-principal button{
+    color: #373A3C;
+    font-weight: bold;
+    border: 2px solid #DDDDDD; 
+  }
+
+
+  
+  @media (max-width: 768px){
+    .btn-responsive {
+      padding:4px 9px;
+      font-size:90%;
+      line-height: 1.2;
+    }
+  }
+
+
+  
+/*carrusel*/
+
+.carousel-control-next{
+  color: #373A3C;
+  text-decoration: none;
+  right: 20px;
+  top: 100%;
+
+  }
+
+.carousel-control-prev{
+  color: #373A3C;
+  text-decoration: none;
+  position: absolute;
+  left: 20px;
+  top: 100%;}
+
+
+
+
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  width: 100%; object-fit:cover;
+}
+
+@media only screen and (max-device-width: 768px){
+  #myCarousel{
+      display: none;
+  }
+}
+
+@media only screen and (max-device-width: 768px){
+  .carousel-control-next{
+      display: none;
+  }
+}
+
+@media only screen and (max-device-width: 768px){
+  .carousel-control-prev{
+      display: none;
+  }
+}
+
+/*newsletter*/
+
+#newsletter{
+    background-color: #DC3545;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+#newsletter h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: auto;
+    margin: 25px;
+    
+}
+
+#newsletter h3{
+    font-weight: regular;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+}
+
+.button-style {
+    width: 233px !important;
+    padding: auto;
+    }
+
+
+
+
+
+
+
+
+    
